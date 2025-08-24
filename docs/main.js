@@ -1,14 +1,14 @@
+gsap.from(".hero-text", {
+  duration:  2,
+  scale:1,
+  opacity:0,
+});
+
 gsap.to(".orn1", {
   duration: 2,
   repeat:Infinity,
   rotation:360,
   scale:2,
-});
-
-gsap.from(".hero", {
-  duration:  2,
-  scale:1,
-  opacity:0,
 });
 
 

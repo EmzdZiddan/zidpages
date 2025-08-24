@@ -12,12 +12,6 @@ gsap.from(".hero", {
 });
 
 
-gsap.from(".zid", {
-  duration:  3,
-  scale:1,
-  opacity:0,
-});
-
 document.addEventListener("DOMContentLoaded", function () {
   new TypeIt("#name", {
     speed:160,
